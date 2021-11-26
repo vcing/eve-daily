@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/eve-daily/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/eve-daily/static/js/main.7f99ca49.chunk.js",
+    "main.js.map": "/eve-daily/static/js/main.7f99ca49.chunk.js.map",
+    "runtime-main.js": "/eve-daily/static/js/runtime-main.969dd2be.js",
+    "runtime-main.js.map": "/eve-daily/static/js/runtime-main.969dd2be.js.map",
+    "static/js/2.d9af95b2.chunk.js": "/eve-daily/static/js/2.d9af95b2.chunk.js",
+    "static/js/2.d9af95b2.chunk.js.map": "/eve-daily/static/js/2.d9af95b2.chunk.js.map",
+    "static/js/3.337143e1.chunk.js": "/eve-daily/static/js/3.337143e1.chunk.js",
+    "static/js/3.337143e1.chunk.js.map": "/eve-daily/static/js/3.337143e1.chunk.js.map",
+    "index.html": "/eve-daily/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/eve-daily/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d9af95b2.chunk.js.LICENSE.txt": "/eve-daily/static/js/2.d9af95b2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.969dd2be.js",
+    "static/js/2.d9af95b2.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.7f99ca49.chunk.js"
+  ]
+}
