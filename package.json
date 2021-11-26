@@ -1,5 +1,5 @@
 {
-  "name": "eve-auto-sell-price",
+  "name": "eve-daily",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,8 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "antd": "^4.17.2",
+    "clipboard": "^2.0.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -28,6 +30,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://vcing.github.io/eve-daily",
   "browserslist": {
     "production": [
       ">0.2%",
