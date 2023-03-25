@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ClipboardJS from "clipboard";
 
 function App() {
-  const [message, setMessage] = useState("");
+  // const [message, setMessage] = useState("");
   const [currentPrice, setCurrentPrice] = useState("");
   const [myPrice, setMyPrice] = useState("");
   useEffect(() => {
@@ -23,7 +23,7 @@ function App() {
         const currentPrice = parseFloat(currentPriceString);
         setCurrentPrice(currentPrice.toString());
         let myPrice = "";
-        if (currentPrice.toString().indexOf(".") != -1) {
+        if (currentPrice.toString().indexOf(".") !== -1) {
           switch (currentPrice.toString().split(".")[1].length) {
             case 1:
               myPrice = (currentPrice - 0.1).toString();
