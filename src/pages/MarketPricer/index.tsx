@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ClipboardJS from "clipboard";
-import { Descriptions, message, Radio, RadioChangeEvent, Spin } from "antd";
+import { Descriptions, message, Radio, RadioChangeEvent, Spin, Statistic } from "antd";
 
 const timeout = 5000
 
@@ -21,6 +21,7 @@ function MarketPricer() {
   const [copyMode, setCopyMode] = useState<string>("sell")
   const [highestBuy, setHighestBuy] = useState<number | null>()
   const [lowestSell, setLowestSell] = useState<number | null>()
+  const [name, setName] = useState<string>("")
   const [myPrice, setMyPrice] = useState<string>("")
   const inputOnChange: React.ChangeEventHandler<HTMLInputElement> = async (e) => {
 
@@ -31,6 +32,7 @@ function MarketPricer() {
 
     let itemId = null
     const name = getName(value)
+    setName(name)
     if (cnMap[name]) {
       itemId = cnMap[name]
     } else if (enMap[name]) {
@@ -135,13 +137,20 @@ function MarketPricer() {
           </button>
           {lowestSell && highestBuy &&
             <>
-              <Descriptions title="查询结果" style={{ width: "50%", textAlign: "center", margin: "20px" }} labelStyle={{ textAlign: "center", display: 'block' }} layout="vertical" bordered>
-                <Descriptions.Item label={`最低卖价`} labelStyle={copyMode == "sell" ? { color: "rgba(0,255,0, 0.5)" } : {}}>{lowestSell}</Descriptions.Item>
-                <Descriptions.Item label={`最高买价`} labelStyle={copyMode == "buy" ? { color: "rgba(255,0,0, 0.5)" } : {}}>{highestBuy}</Descriptions.Item>
+              <Descriptions title={`查询结果(吉他):${name}`} style={{ width: "50%", textAlign: "center", margin: "20px" }} labelStyle={{ textAlign: "center", display: 'block' }} layout="vertical" bordered>
+                <Descriptions.Item label={`最低卖价`} labelStyle={{ color: "rgba(255,0,0, 0.7)" }}><Statistic value={lowestSell} /></Descriptions.Item>
+                <Descriptions.Item label={`最高买价`} labelStyle={{ color: "rgba(0,255,0, 0.5)" }}><Statistic value={highestBuy} /></Descriptions.Item>
               </Descriptions>
-              <span style={{ fontSize: "20px", color: "yellow" }}><span style={{color: "white"}}>当前复制价格:</span>{myPrice}</span>
+              {/* <span style={{ fontSize: "20px", color: "yellow" }}><span style={{ color: "white" }}>当前复制价格:</span>{myPrice}</span> */}
+              <Statistic title="当前复制价格" value={myPrice} />
             </>}
         </header>
+        <footer>
+          <p style={{ fontSize: "14px" }}>
+            价格数据会存在延迟<br />
+            数据来源于 evemarketer.com<br />
+          </p>
+        </footer>
       </Spin>
     </div>
   )
