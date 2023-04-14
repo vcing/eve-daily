@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eve-daily/static/css/main.0dc85fe8.css",
-    "main.js": "/eve-daily/static/js/main.57ce7b8c.js",
+    "main.js": "/eve-daily/static/js/main.a048629c.js",
     "static/js/23.1f6ff34e.chunk.js": "/eve-daily/static/js/23.1f6ff34e.chunk.js",
     "index.html": "/eve-daily/index.html",
     "main.0dc85fe8.css.map": "/eve-daily/static/css/main.0dc85fe8.css.map",
-    "main.57ce7b8c.js.map": "/eve-daily/static/js/main.57ce7b8c.js.map",
+    "main.a048629c.js.map": "/eve-daily/static/js/main.a048629c.js.map",
     "23.1f6ff34e.chunk.js.map": "/eve-daily/static/js/23.1f6ff34e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dc85fe8.css",
-    "static/js/main.57ce7b8c.js"
+    "static/js/main.a048629c.js"
   ]
 }
