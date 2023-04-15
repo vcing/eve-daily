@@ -14,6 +14,44 @@ function getName(inputValue: string) {
   return getMarketOrderName(inputValue)
 }
 
+function calculatePrice(currentPrice: number, direction: number) {
+  let myPrice = "";
+  if (currentPrice.toString().indexOf(".") !== -1) {
+    switch (currentPrice.toString().split(".")[1].length) {
+      case 1:
+        myPrice = ((currentPrice * 10 + 1 * direction) / 10).toString();
+        break;
+      case 2:
+        myPrice = ((currentPrice * 100 + 1 * direction) / 100).toString();
+        break;
+    }
+  } else {
+    let i = 3;
+    while (currentPrice.toString()[i] === "0") i--;
+    const numbers = currentPrice.toString().substr(0, i + 1);
+    let operateNumbers = numbers.toString();
+    let zeros = currentPrice.toString().split(numbers)[1];
+    while (operateNumbers.length < 4) {
+      operateNumbers += "0";
+      zeros = zeros.substring(0, zeros.length - 1);
+    }
+    myPrice = parseInt(operateNumbers) + direction + zeros;
+    switch (currentPrice.toString().length) {
+      case 3:
+        myPrice = (parseInt(myPrice) / 10).toString()
+        break;
+      case 2:
+        myPrice = (parseInt(myPrice) / 100).toString()
+        break;
+      case 1:
+        myPrice = (parseInt(myPrice) / 1000).toFixed(2).toString()
+        break;
+
+    }
+  }
+  return myPrice
+}
+
 function MarketPricer() {
   const [loading, setLoading] = useState(false)
   const [cnMap, setCnMap] = useState<{ [key: string]: string }>({})
@@ -54,29 +92,9 @@ function MarketPricer() {
         if (buy && sell) {
           const currentPrice = copyMode === "sell" ? sell : buy
           const direction = copyMode === "sell" ? -1 : 1
-          let myPrice = "";
-          if (currentPrice.toString().indexOf(".") !== -1) {
-            switch (currentPrice.toString().split(".")[1].length) {
-              case 1:
-                myPrice = (currentPrice + 0.1 * direction).toString();
-                break;
-              case 2:
-                myPrice = (currentPrice + 0.01 * direction).toString();
-            }
-          } else {
-            let i = 3;
-            while (currentPrice.toString()[i] === "0") i--;
-            const numbers = currentPrice.toString().substr(0, i + 1);
-            let operateNumbers = numbers.toString();
-            let zeros = currentPrice.toString().split(numbers)[1];
-            while (operateNumbers.length < 4) {
-              operateNumbers += "0";
-              zeros = zeros.substring(0, zeros.length - 1);
-            }
-            myPrice = parseInt(operateNumbers) + direction + zeros;
-            setMyPrice(myPrice)
-            target.value = myPrice
-          }
+          const myPrice = calculatePrice(currentPrice, direction)
+          setMyPrice(myPrice)
+          target.value = myPrice
         }
       } catch (e) {
         setLowestSell(null)
