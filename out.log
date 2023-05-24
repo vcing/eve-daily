@@ -1,0 +1,372 @@
+2023-05-08 17:42:07.764 | DEBUG    | __main__:<module>:4 - That's it, beautiful and simple logging!
+2023-05-08 17:42:15.128 | DEBUG    | __main__:<module>:4 - That's it, beautiful and simple logging!
+2023-05-08 17:43:28.101 | DEBUG    | __main__:<module>:4 - That's it, beautiful and simple logging!
+2023-05-08 17:44:59.154 | DEBUG    | __main__:test_log:8 - That's it, beautiful and simple logging!
+2023-05-08 17:48:00.334 | DEBUG    | __main__:test_log:8 - That's it, beautiful and simple logging!
+2023-05-08 17:48:22.001 | DEBUG    | __main__:test_log:8 - That's it, beautiful and simple logging!
+2023-05-08 17:48:44.358 | DEBUG    | __main__:test_log:8 - That's it, beautiful and simple logging!
+2023-05-08 17:48:44.360 | INFO     | __main__:<module>:11 - None
+2023-05-09 09:54:06.897 | DEBUG    | __main__:<module>:7 - A debug message.
+2023-05-09 09:54:06.898 | INFO     | __main__:<module>:8 - An info message.
+2023-05-09 09:54:06.898 | SUCCESS  | __main__:<module>:9 - A success message.
+2023-05-09 09:54:06.898 | WARNING  | __main__:<module>:10 - A warning message.
+2023-05-09 09:54:06.899 | ERROR    | __main__:<module>:11 - An error message.
+2023-05-09 09:54:06.899 | CRITICAL | __main__:<module>:12 - A critical message.
+2023-05-09 09:54:06.901 | DEBUG    | __main__:test_log:15 - That's it, beautiful and simple logging!
+2023-05-09 09:54:06.902 | INFO     | __main__:<module>:18 - None
+2023-05-09 09:59:09.697 | TRACE    | __main__:<module>:6 - A trace message.
+2023-05-09 09:59:09.697 | DEBUG    | __main__:<module>:7 - A debug message.
+2023-05-09 09:59:09.698 | INFO     | __main__:<module>:8 - An info message.
+2023-05-09 09:59:09.698 | SUCCESS  | __main__:<module>:9 - A success message.
+2023-05-09 09:59:09.699 | WARNING  | __main__:<module>:10 - A warning message.
+2023-05-09 09:59:09.699 | ERROR    | __main__:<module>:11 - An error message.
+2023-05-09 09:59:09.699 | CRITICAL | __main__:<module>:12 - A critical message.
+2023-05-09 09:59:09.701 | DEBUG    | __main__:test_log:15 - That's it, beautiful and simple logging!
+2023-05-09 09:59:09.702 | INFO     | __main__:<module>:18 - None
+2023-05-09 10:14:33.792 | TRACE    | __main__:<module>:6 - A trace message.
+2023-05-09 10:14:33.793 | DEBUG    | __main__:<module>:7 - A debug message.
+2023-05-09 10:14:33.793 | INFO     | __main__:<module>:8 - An info message.
+2023-05-09 10:14:33.793 | SUCCESS  | __main__:<module>:9 - A success message.
+2023-05-09 10:14:33.793 | WARNING  | __main__:<module>:10 - A warning message.
+2023-05-09 10:14:33.794 | ERROR    | __main__:<module>:11 - An error message.
+2023-05-09 10:14:33.794 | CRITICAL | __main__:<module>:12 - A critical message.
+2023-05-09 10:14:33.795 | DEBUG    | __main__:test_log:15 - That's it, beautiful and simple logging!
+2023-05-09 10:14:33.797 | INFO     | __main__:<module>:18 - None
+2023-05-09 10:14:33.797 | TRACE    | __main__:<module>:19 - __main__
+2023-05-09 10:15:20.850 | TRACE    | loguru_test:<module>:6 - A trace message.
+2023-05-09 10:15:20.851 | DEBUG    | loguru_test:<module>:7 - A debug message.
+2023-05-09 10:15:20.851 | INFO     | loguru_test:<module>:8 - An info message.
+2023-05-09 10:15:20.851 | SUCCESS  | loguru_test:<module>:9 - A success message.
+2023-05-09 10:15:20.852 | WARNING  | loguru_test:<module>:10 - A warning message.
+2023-05-09 10:15:20.852 | ERROR    | loguru_test:<module>:11 - An error message.
+2023-05-09 10:15:20.852 | CRITICAL | loguru_test:<module>:12 - A critical message.
+2023-05-09 10:15:20.854 | DEBUG    | loguru_test:test_log:15 - That's it, beautiful and simple logging!
+2023-05-09 10:15:20.855 | INFO     | loguru_test:<module>:18 - None
+2023-05-09 10:15:20.855 | TRACE    | loguru_test:<module>:19 - loguru_test
+2023-05-09 10:43:37.411 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 10:43:37.412 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 10:43:37.412 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 10:43:37.412 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 10:43:37.412 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 10:43:37.413 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 10:43:37.413 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 10:43:37.414 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 10:43:37.416 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 10:43:37.416 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 10:45:41.439 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 10:45:41.440 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 10:45:41.440 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 10:45:41.440 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 10:45:41.440 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 10:45:41.441 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 10:45:41.441 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 10:45:41.442 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 10:45:41.443 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 10:45:41.444 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 10:53:33.589 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 10:53:33.589 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 10:53:33.589 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 10:53:33.590 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 10:53:33.590 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 10:53:33.590 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 10:53:33.590 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 10:53:33.592 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 10:53:33.593 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 10:53:33.593 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 10:53:33.595 | INFO     | tools.tt:<module>:3 - from tt
+2023-05-09 10:54:26.619 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 10:54:26.619 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 10:54:26.619 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 10:54:26.619 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 10:54:26.620 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 10:54:26.620 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 10:54:26.620 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 10:54:26.622 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 10:54:26.623 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 10:54:26.623 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 10:59:52.400 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 10:59:52.400 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 10:59:52.400 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 10:59:52.401 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 10:59:52.401 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 10:59:52.401 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 10:59:52.401 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 10:59:52.403 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 10:59:52.404 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 10:59:52.404 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 10:59:52.405 | INFO     | __main__:<module>:6 - ['/root/projects/eve-daily/server', '/root/projects/eve-daily/env/lib/python311.zip', '/root/projects/eve-daily/env/lib/python3.11', '/root/projects/eve-daily/env/lib/python3.11/lib-dynload', '/root/projects/eve-daily/env/lib/python3.11/site-packages']
+2023-05-09 11:17:31.408 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 11:17:31.408 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 11:17:31.408 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 11:17:31.408 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 11:17:31.409 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 11:17:31.409 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 11:17:31.409 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 11:17:31.409 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 11:17:31.410 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 11:17:31.410 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 14:31:42.668 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 14:31:42.669 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 14:31:42.670 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 14:31:42.670 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 14:31:42.671 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 14:31:42.671 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 14:31:42.672 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 14:31:42.674 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 14:31:42.676 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 14:31:42.677 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 14:39:38.505 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 14:39:38.505 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 14:39:38.506 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 14:39:38.507 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 14:39:38.507 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 14:39:38.507 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 14:39:38.508 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 14:39:38.508 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 14:39:38.509 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 14:39:38.510 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 14:40:20.829 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 14:40:20.829 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 14:40:20.830 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 14:40:20.830 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 14:40:20.831 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 14:40:20.831 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 14:40:20.831 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 14:40:20.834 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 14:40:20.836 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 14:40:20.837 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 14:40:35.936 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 14:40:35.937 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 14:40:35.937 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 14:40:35.938 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 14:40:35.938 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 14:40:35.939 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 14:40:35.939 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 14:40:35.941 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 14:40:35.943 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 14:40:35.944 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 14:47:46.473 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 14:47:46.473 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 14:47:46.474 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 14:47:46.474 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 14:47:46.475 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 14:47:46.475 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 14:47:46.476 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 14:47:46.478 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 14:47:46.480 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 14:47:46.480 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 14:47:46.481 | ERROR    | loguru_test:<module>:26 - An error has been caught in function '<module>', process 'MainProcess' (4489), thread 'MainThread' (140645944304704):
+Traceback (most recent call last):
+
+  File "/root/projects/eve-daily/env/lib/python3.11/runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x7feaaf8471b0, file "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/pyth...
+           └ <function _run_code at 0x7feaaf651760>
+  File "/root/projects/eve-daily/env/lib/python3.11/runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x7feaaf8471b0, file "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/pyth...
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x7feaae0d5760>
+    └ <module 'debugpy.server.cli' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/a...
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x7feaae0d54e0>
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ '/root/projects/eve-daily/server/main.py'
+    │     └ <function run_path at 0x7feaae426660>
+    └ <module '_pydevd_bundle.pydevd_runpy' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/...
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x16aef10, file "/root/projects/eve-daily/server/main.py", line 1>
+           └ <function _run_module_code at 0x7feaae4262a0>
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/root/project...
+    │         └ <code object <module> at 0x16aef10, file "/root/projects/eve-daily/server/main.py", line 1>
+    └ <function _run_code at 0x7feaae425e40>
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/root/project...
+         └ <code object <module> at 0x16aef10, file "/root/projects/eve-daily/server/main.py", line 1>
+
+  File "/root/projects/eve-daily/server/main.py", line 26, in <module>
+    import loguru_test
+
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+> File "/root/projects/eve-daily/server/loguru_test.py", line 26, in <module>
+    a(0)
+    └ <function a at 0x7fea9f1c1d00>
+
+  File "/root/projects/eve-daily/server/loguru_test.py", line 24, in a
+    return 10/b
+              └ 0
+
+ZeroDivisionError: division by zero
+2023-05-09 14:49:47.941 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 14:49:47.942 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 14:49:47.942 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 14:49:47.943 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 14:49:47.943 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 14:49:47.943 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 14:49:47.944 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 14:49:47.946 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 14:49:47.947 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 14:49:47.948 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 14:49:47.948 | ERROR    | loguru_test:<module>:26 - An error has been caught in function '<module>', process 'MainProcess' (4795), thread 'MainThread' (140012648969280):
+Traceback (most recent call last):
+
+  File "/root/projects/eve-daily/env/lib/python3.11/runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x7f573c2c71b0, file "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/pyth...
+           └ <function _run_code at 0x7f573c0d1760>
+  File "/root/projects/eve-daily/env/lib/python3.11/runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x7f573c2c71b0, file "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/pyth...
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x7f573ab59760>
+    └ <module 'debugpy.server.cli' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/a...
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x7f573ab594e0>
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ '/root/projects/eve-daily/server/main.py'
+    │     └ <function run_path at 0x7f573aea6660>
+    └ <module '_pydevd_bundle.pydevd_runpy' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/...
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x161cc70, file "/root/projects/eve-daily/server/main.py", line 1>
+           └ <function _run_module_code at 0x7f573aea62a0>
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/root/project...
+    │         └ <code object <module> at 0x161cc70, file "/root/projects/eve-daily/server/main.py", line 1>
+    └ <function _run_code at 0x7f573aea5e40>
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/root/project...
+         └ <code object <module> at 0x161cc70, file "/root/projects/eve-daily/server/main.py", line 1>
+
+  File "/root/projects/eve-daily/server/main.py", line 25, in <module>
+    import loguru_test
+
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+> File "/root/projects/eve-daily/server/loguru_test.py", line 26, in <module>
+    a(0)
+    └ <function a at 0x7f5723bcdd00>
+
+  File "/root/projects/eve-daily/server/loguru_test.py", line 24, in a
+    return 10/b
+              └ 0
+
+ZeroDivisionError: division by zero
+2023-05-09 14:50:07.669 | TRACE    | loguru_test:<module>:7 - A trace message.
+2023-05-09 14:50:07.670 | DEBUG    | loguru_test:<module>:8 - A debug message.
+2023-05-09 14:50:07.671 | INFO     | loguru_test:<module>:9 - An info message.
+2023-05-09 14:50:07.671 | SUCCESS  | loguru_test:<module>:10 - A success message.
+2023-05-09 14:50:07.671 | WARNING  | loguru_test:<module>:11 - A warning message.
+2023-05-09 14:50:07.672 | ERROR    | loguru_test:<module>:12 - An error message.
+2023-05-09 14:50:07.672 | CRITICAL | loguru_test:<module>:13 - A critical message.
+2023-05-09 14:50:07.674 | DEBUG    | loguru_test:test_log:16 - That's it, beautiful and simple logging!
+2023-05-09 14:50:07.676 | INFO     | loguru_test:<module>:19 - None
+2023-05-09 14:50:07.677 | TRACE    | loguru_test:<module>:20 - loguru_test
+2023-05-09 14:50:07.677 | ERROR    | loguru_test:<module>:26 - An error has been caught in function '<module>', process 'MainProcess' (4872), thread 'MainThread' (139661085516864):
+Traceback (most recent call last):
+
+  File "/root/projects/eve-daily/env/lib/python3.11/runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x7f05615bf1b0, file "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/pyth...
+           └ <function _run_code at 0x7f05613c9760>
+  File "/root/projects/eve-daily/env/lib/python3.11/runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x7f05615bf1b0, file "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/pyth...
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x7f055fe4d760>
+    └ <module 'debugpy.server.cli' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/a...
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x7f055fe4d4e0>
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ '/root/projects/eve-daily/server/main.py'
+    │     └ <function run_path at 0x7f056019e660>
+    └ <module '_pydevd_bundle.pydevd_runpy' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/...
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x295ef10, file "/root/projects/eve-daily/server/main.py", line 1>
+           └ <function _run_module_code at 0x7f056019e2a0>
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/root/project...
+    │         └ <code object <module> at 0x295ef10, file "/root/projects/eve-daily/server/main.py", line 1>
+    └ <function _run_code at 0x7f056019de40>
+
+  File "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/root/project...
+         └ <code object <module> at 0x295ef10, file "/root/projects/eve-daily/server/main.py", line 1>
+
+  File "/root/projects/eve-daily/server/main.py", line 26, in <module>
+    import loguru_test
+
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+
+> File "/root/projects/eve-daily/server/loguru_test.py", line 26, in <module>
+    a(0)
+    └ <function a at 0x7f055ced9d00>
+
+  File "/root/projects/eve-daily/server/loguru_test.py", line 24, in a
+    return 10/b
+              └ 0
+
+ZeroDivisionError: division by zero
